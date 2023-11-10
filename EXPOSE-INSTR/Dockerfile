@@ -1,0 +1,3 @@
+FROM almalinux 
+
+EXPOSE 8087/TCP
