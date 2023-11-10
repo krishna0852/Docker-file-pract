@@ -1,0 +1,4 @@
+FROM almalinux 
+
+ENV JAVA_HOME="/JAVA_HOMEPATH"\
+    JAVA_PATH="JAVA_HOMEPATH/bin"
