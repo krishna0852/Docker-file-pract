@@ -1,3 +1,3 @@
 FROM almalinux 
 
-ADD https://github.com/krishna0852/datastructures /temp
+ADD https://github.com/krishna0852/datastructures /tmp
