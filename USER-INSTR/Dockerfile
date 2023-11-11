@@ -1,6 +1,6 @@
 FROM almalinux 
 
-RUN add user teja 
+RUN adduser teja 
 
 USER teja 
 
