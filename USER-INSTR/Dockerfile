@@ -1,7 +1,7 @@
 FROM almalinux 
 
-RUN adduser teja 
+#RUN adduser teja 
 
-USER teja 
+#USER teja 
 
 RUN touch /tmp/test.txt 
