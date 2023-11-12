@@ -7,4 +7,5 @@ ARG VERISON
 
 FROM almalinux:${VERISON:-8} 
 
-RUN echo "${VERISON}"
+ARG VERSION="HELLO DOCKER"
+RUN echo "${VERSION}"
