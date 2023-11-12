@@ -1,0 +1,2 @@
+ARG VERISON
+FROM almalinux:${VERISON}
