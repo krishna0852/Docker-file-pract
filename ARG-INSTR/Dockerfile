@@ -7,4 +7,4 @@ ARG VERISON
 
 FROM almalinux:${VERISON:-8} 
 
-RUN ECHO ${VERISON}
+RUN echo "${VERISON}"
