@@ -6,3 +6,5 @@ ARG VERISON
 # if not given by default it will run version 8 
 
 FROM almalinux:${VERISON:-8} 
+
+RUN ECHO ${VERISON}
